@@ -1,0 +1,3 @@
+r2019-09-16 07:23:55 WARN  ParallelEventProcessor:72 - Event does not have id. Skipping processing for this event:
+NLoggerEvent[id='null', state=STARTED, type='type', host='host', timestamp=10]
+	®2019-09-16 07:23:55 WARN  ParallelEventProcessor:82 - Event pair STARTED-FINISHED not associated - skipping processing. Event with duplicated state FINISHED for event id: id

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.eb.processor.impl.ParallelEventProcessorTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-09-16T05:23:55" hostname="elim-primary" time="0.716">
+  <properties/>
+  <testcase name="persistFinalEvent" classname="com.eb.processor.impl.ParallelEventProcessorTest" time="0.682"/>
+  <testcase name="shouldNotFindPairWhenOneEvent" classname="com.eb.processor.impl.ParallelEventProcessorTest" time="0.016"/>
+  <testcase name="shouldFindPairWhenTwoEvents" classname="com.eb.processor.impl.ParallelEventProcessorTest" time="0.002"/>
+  <testcase name="process" classname="com.eb.processor.impl.ParallelEventProcessorTest" time="0.001"/>
+  <testcase name="shouldFindPairWhenThereIsEmptyId" classname="com.eb.processor.impl.ParallelEventProcessorTest" time="0.004"/>
+  <testcase name="calculateDuration" classname="com.eb.processor.impl.ParallelEventProcessorTest" time="0.002"/>
+  <testcase name="calculateDurationWhenAlerted" classname="com.eb.processor.impl.ParallelEventProcessorTest" time="0.004"/>
+  <testcase name="shouldFindPairWhenThereAreSameStates" classname="com.eb.processor.impl.ParallelEventProcessorTest" time="0.005"/>
+  <system-out><![CDATA[2019-09-16 07:23:55 WARN  ParallelEventProcessor:72 - Event does not have id. Skipping processing for this event:
+LoggerEvent[id='null', state=STARTED, type='type', host='host', timestamp=10]
+2019-09-16 07:23:55 WARN  ParallelEventProcessor:82 - Event pair STARTED-FINISHED not associated - skipping processing. Event with duplicated state FINISHED for event id: id
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
